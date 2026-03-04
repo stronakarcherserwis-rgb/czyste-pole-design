@@ -16,9 +16,9 @@ const Header = () => {
       {/* Top bar */}
       <div className="bg-secondary text-secondary-foreground">
         <div className="container mx-auto flex items-center justify-end gap-6 py-2 px-4 text-sm">
-          <a href="tel:+48156221221" className="flex items-center gap-2 hover:text-primary transition-colors">+48 15 822 12 21
+          <a href="tel:+48158221221" className="flex items-center gap-2 hover:text-primary transition-colors">
             <Phone className="w-3.5 h-3.5" />
-            +48 15 622 12 21
+            +48 15 822 12 21
           </a>
           <a href="mailto:biuro@karcherserwis.pl" className="flex items-center gap-2 hover:text-primary transition-colors">
             <Mail className="w-3.5 h-3.5" />
