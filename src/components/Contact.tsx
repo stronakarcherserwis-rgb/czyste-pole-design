@@ -24,7 +24,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-semibold">Adres</p>
-                  <p className="text-muted-foreground">ul. Lwowska 41<br />27-600 Sandomierz</p>
+                  <p className="text-muted-foreground">ul. Lwowska 39<br />27-600 Sandomierz</p>
                 </div>
               </div>
 
@@ -70,7 +70,7 @@ const Contact = () => {
 
           <div className="bg-card rounded-2xl overflow-hidden shadow-card border border-border min-h-[400px]">
             <iframe
-              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Lwowska+41,+27-600+Sandomierz,+Poland&zoom=16"
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Lwowska+39,+27-600+Sandomierz,+Poland&zoom=16"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: "400px" }}
