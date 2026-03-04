@@ -34,12 +34,11 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-semibold">Telefon</p>
-                  <p className="text-muted-foreground">
-                    <a href="tel:+48156221221" className="hover:text-primary transition-colors">+48 15 822 12 21
-+48 604 222 560
-+48 604 904 222
-                    </a>
-                  </p>
+                  <div className="text-muted-foreground space-y-1">
+                    <a href="tel:+48158221221" className="block hover:text-primary transition-colors">+48 15 822 12 21</a>
+                    <a href="tel:+48604222560" className="block hover:text-primary transition-colors">+48 604 222 560</a>
+                    <a href="tel:+48604904222" className="block hover:text-primary transition-colors">+48 604 904 222</a>
+                  </div>
                 </div>
               </div>
 
