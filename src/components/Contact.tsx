@@ -38,7 +38,7 @@ const Contact = () => {
                     <a href="tel:+48156221221" className="hover:text-primary transition-colors">+48 15 822 12 21
 +48 604 222 560
 +48 604 904 222
-</a>
+                    </a>
                   </p>
                 </div>
               </div>
