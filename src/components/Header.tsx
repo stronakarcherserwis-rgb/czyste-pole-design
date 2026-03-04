@@ -31,8 +31,8 @@ const Header = () => {
       <nav className="bg-background/95 backdrop-blur-md border-b border-border">
         <div className="container mx-auto flex items-center justify-between py-4 px-4">
           <a href="#" className="font-heading text-2xl font-900 tracking-tight">
-            <span className="text-primary bg-primary px-2 py-1 text-primary-foreground font-extrabold">  KARCHER</span>
-            <span className="ml-2 font-bold text-foreground">SERWIS</span>
+            <span className="text-primary bg-primary px-2 py-1 text-primary-foreground font-extrabold">  KARCHERSERWIS  </span>
+            <span className="ml-2 font-bold text-foreground"></span>
           </a>
 
           {/* Desktop */}
