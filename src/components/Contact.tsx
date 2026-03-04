@@ -35,7 +35,7 @@ const Contact = () => {
                 <div>
                   <p className="font-semibold">Telefon</p>
                   <p className="text-muted-foreground">
-                    <a href="tel:+48156221221" className="hover:text-primary transition-colors">+48 15 622 12 21</a>
+                    <a href="tel:+48156221221" className="hover:text-primary transition-colors">+48 15 822 12 21</a>
                   </p>
                 </div>
               </div>
@@ -77,13 +77,13 @@ const Contact = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Mapa lokalizacji"
-            />
+              title="Mapa lokalizacji" />
+            
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default Contact;

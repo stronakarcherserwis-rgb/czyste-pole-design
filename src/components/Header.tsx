@@ -5,18 +5,18 @@ const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const navItems = [
-    { label: "O nas", href: "#o-nas" },
-    { label: "Usługi", href: "#uslugi" },
-    { label: "Cennik", href: "#cennik" },
-    { label: "Kontakt", href: "#kontakt" },
-  ];
+  { label: "O nas", href: "#o-nas" },
+  { label: "Usługi", href: "#uslugi" },
+  { label: "Cennik", href: "#cennik" },
+  { label: "Kontakt", href: "#kontakt" }];
+
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
       {/* Top bar */}
       <div className="bg-secondary text-secondary-foreground">
         <div className="container mx-auto flex items-center justify-end gap-6 py-2 px-4 text-sm">
-          <a href="tel:+48156221221" className="flex items-center gap-2 hover:text-primary transition-colors">
+          <a href="tel:+48156221221" className="flex items-center gap-2 hover:text-primary transition-colors">+48 15 822 12 21
             <Phone className="w-3.5 h-3.5" />
             +48 15 622 12 21
           </a>
@@ -37,16 +37,16 @@ const Header = () => {
 
           {/* Desktop */}
           <ul className="hidden md:flex items-center gap-8">
-            {navItems.map((item) => (
-              <li key={item.href}>
+            {navItems.map((item) =>
+            <li key={item.href}>
                 <a
-                  href={item.href}
-                  className="font-heading text-sm font-semibold uppercase tracking-wider text-muted-foreground hover:text-foreground transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full"
-                >
+                href={item.href}
+                className="font-heading text-sm font-semibold uppercase tracking-wider text-muted-foreground hover:text-foreground transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full">
+                
                   {item.label}
                 </a>
               </li>
-            ))}
+            )}
           </ul>
 
           {/* Mobile toggle */}
@@ -56,26 +56,26 @@ const Header = () => {
         </div>
 
         {/* Mobile menu */}
-        {mobileOpen && (
-          <div className="md:hidden bg-background border-t border-border">
+        {mobileOpen &&
+        <div className="md:hidden bg-background border-t border-border">
             <ul className="flex flex-col py-4">
-              {navItems.map((item) => (
-                <li key={item.href}>
+              {navItems.map((item) =>
+            <li key={item.href}>
                   <a
-                    href={item.href}
-                    className="block px-6 py-3 font-heading text-sm font-semibold uppercase tracking-wider text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
-                    onClick={() => setMobileOpen(false)}
-                  >
+                href={item.href}
+                className="block px-6 py-3 font-heading text-sm font-semibold uppercase tracking-wider text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+                onClick={() => setMobileOpen(false)}>
+                
                     {item.label}
                   </a>
                 </li>
-              ))}
+            )}
             </ul>
           </div>
-        )}
+        }
       </nav>
-    </header>
-  );
+    </header>);
+
 };
 
 export default Header;

@@ -12,7 +12,8 @@ const Hero = () => {
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold leading-tight text-secondary-foreground">
               Sprzedaż i serwis{" "}
-              <span className="text-primary">myjek ciśnieniowych</span>
+              <span className="text-primary">myjek ciśnieniowych i maszyn sprzątających
+              </span>
             </h1>
           </div>
           <p className="text-lg text-secondary-foreground/70 max-w-lg font-body leading-relaxed">
@@ -20,17 +21,16 @@ const Hero = () => {
             Wieloletnie doświadczenie i fachowa obsługa.
           </p>
           <div className="flex flex-wrap gap-4">
-            <a
-              href="#kontakt"
-              className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-lg font-heading font-bold text-sm uppercase tracking-wider hover:brightness-110 transition-all shadow-elevated"
-            >
+            <a href="#kontakt"
+            className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-lg font-heading font-bold text-sm uppercase tracking-wider hover:brightness-110 transition-all shadow-elevated">
+              
               Skontaktuj się
               <ArrowRight className="w-4 h-4" />
             </a>
             <a
               href="#uslugi"
-              className="inline-flex items-center gap-2 border-2 border-secondary-foreground/30 text-secondary-foreground px-8 py-4 rounded-lg font-heading font-bold text-sm uppercase tracking-wider hover:border-primary hover:text-primary transition-colors"
-            >
+              className="inline-flex items-center gap-2 border-2 border-secondary-foreground/30 text-secondary-foreground px-8 py-4 rounded-lg font-heading font-bold text-sm uppercase tracking-wider hover:border-primary hover:text-primary transition-colors">
+              
               Nasze usługi
             </a>
           </div>
@@ -42,13 +42,13 @@ const Hero = () => {
             <img
               src={machineImg}
               alt="Profesjonalna myjka ciśnieniowa"
-              className="relative z-10 w-full max-w-md object-contain drop-shadow-2xl"
-            />
+              className="relative z-10 w-full max-w-md object-contain drop-shadow-2xl" />
+            
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default Hero;
