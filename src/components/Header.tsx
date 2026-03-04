@@ -20,7 +20,7 @@ const Header = () => {
             <Phone className="w-3.5 h-3.5" />
             +48 15 822 12 21
           </a>
-          <a href="mailto:biuro@karcherserwis.pl" className="flex items-center gap-2 hover:text-primary transition-colors">
+          <a href="mailto:biuro@karcherserwis.pl" className="flex items-center gap-2 hover:text-primary transition-colors">fhujacu@poczta.fm
             <Mail className="w-3.5 h-3.5" />
             biuro@karcherserwis.pl
           </a>
