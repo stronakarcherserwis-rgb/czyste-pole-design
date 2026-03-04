@@ -22,7 +22,7 @@ const Header = () => {
           </a>
           <a href="mailto:biuro@karcherserwis.pl" className="flex items-center gap-2 hover:text-primary transition-colors">
             <Mail className="w-3.5 h-3.5" />
-            <span>biuro@karcherserwis.pl</span>
+            <span>fhujacu@poczta.fm</span>
           </a>
         </div>
       </div>
