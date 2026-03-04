@@ -24,7 +24,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-semibold">Adres</p>
-                  <p className="text-muted-foreground">ul. Lwowska 41<br />27-600 Sandomierz</p>
+                  <p className="text-muted-foreground">ul. Lwowska 39<br />27-600 Sandomierz</p>
                 </div>
               </div>
 
@@ -49,7 +49,7 @@ const Contact = () => {
                 <div>
                   <p className="font-semibold">E-mail</p>
                   <p className="text-muted-foreground">
-                    <a href="mailto:biuro@karcherserwis.pl" className="hover:text-primary transition-colors text-muted-foreground"></a>
+                    <a href="mailto:biuro@karcherserwis.pl" className="hover:text-primary transition-colors text-muted-foreground">biuro@karcherserwis.pl</a>
                   </p>
                 </div>
               </div>
