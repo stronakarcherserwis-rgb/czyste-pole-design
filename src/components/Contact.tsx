@@ -18,6 +18,14 @@ const Contact = () => {
             <div className="bg-card rounded-2xl p-8 shadow-card border border-border space-y-6">
               <h3 className="font-heading font-bold text-xl">Dane firmy</h3>
               
+              <div className="text-sm text-muted-foreground space-y-1 pb-2 border-b border-border">
+                <p className="font-semibold text-foreground">F.H.U. "JACU" Jacek Nowak</p>
+                <p>ul. Konstytucji 3 Maja 2/5</p>
+                <p>39-400 Tarnobrzeg</p>
+                <p>NIP: 864-107-14-75</p>
+                <p>REGON: 291080909</p>
+              </div>
+
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                   <MapPin className="w-5 h-5 text-primary" />
