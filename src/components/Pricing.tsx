@@ -1,12 +1,12 @@
 const items = [
-  { name: "Myjka zimnowodna (230V)", price: "140,00 zł/doba", deposit: "Kaucja zwrotna 300 zł" },
-  { name: "Myjka gorącowodna (400V)", price: "230,00 zł/doba", deposit: "Kaucja zwrotna 300 zł" },
+  { name: "Myjka zimnowodna (230V)", price: "200,00 zł/doba", deposit: "Kaucja zwrotna 300 zł" },
+  { name: "Myjka gorącowodna (400V)", price: "300,00 zł/doba", deposit: "Kaucja zwrotna 300 zł" },
   { name: "Odkurzacz piorący", price: "80,00 zł/doba", deposit: "Kaucja zwrotna 300 zł" },
 ];
 
 const accessories = [
   { name: "Dodatkowe akcesoria wraz z urządzeniem", price: "" },
-  { name: "Pianotwórnica", price: "30,00 zł" },
+  { name: "Pianownica", price: "30,00 zł" },
   { name: "Dysza rotacyjna", price: "40,00 zł" },
   { name: "Wąż ciśnieniowy 20m (przedłużka)", price: "45,00 zł" },
   { name: "Wąż do kanalizacji 20m", price: "70,00 zł" },
