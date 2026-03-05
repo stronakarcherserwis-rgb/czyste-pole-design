@@ -8,9 +8,8 @@ const accessories = [
 { name: "Dodatkowe akcesoria wraz z urządzeniem", price: "" },
 { name: "Pianownica", price: "30,00 zł" },
 { name: "Dysza rotacyjna", price: "40,00 zł" },
-{ name: "Wąż ciśnieniowy 20m (przedłużka)", price: "45,00 zł" },
-{ name: "Wąż do kanalizacji 20m", price: "70,00 zł" },
-{ name: "Lanca teleskopowa 5,5m", price: "80,00 zł" }];
+  { name: "Wąż ciśnieniowy 20m (przedłużka)", price: "45,00 zł" },
+  { name: "Wąż do kanalizacji 20m", price: "70,00 zł" }];
 
 
 const Pricing = () => {
