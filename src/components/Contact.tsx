@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
           <div className="space-y-8">
             <div className="bg-card rounded-2xl p-8 shadow-card border border-border space-y-6">
-              <h3 className="font-heading font-bold text-xl">Kärcher Serwis</h3>
+              <h3 className="font-heading font-bold text-xl">Dane firmy</h3>
               
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
