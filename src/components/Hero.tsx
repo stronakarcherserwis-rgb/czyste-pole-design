@@ -1,4 +1,4 @@
-import machineImg from "@/assets/machine-cold.jpg";
+import shopImg from "@/assets/zdjecie_sklep.jpg";
 import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
@@ -40,9 +40,9 @@ const Hero = () => {
           <div className="relative">
             <div className="absolute -inset-4 bg-primary/10 rounded-3xl blur-2xl" />
             <img
-              src={machineImg}
-              alt="Profesjonalna myjka ciśnieniowa"
-              className="relative z-10 w-full max-w-md object-contain drop-shadow-2xl" />
+              src={shopImg}
+              alt="Sklep F.H.U. JACU - Kärcher i Kränzle"
+              className="relative z-10 w-full max-w-md object-cover rounded-xl drop-shadow-2xl" />
             
           </div>
         </div>
