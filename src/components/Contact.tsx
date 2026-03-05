@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Facebook } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -73,6 +73,18 @@ const Contact = () => {
                     <p>Sobota: 8:00 – 12:00</p>
                     <p>Niedziela: Nieczynne</p>
                   </div>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Facebook className="w-5 h-5 text-primary" />
+                </div>
+                <div>
+                  <p className="font-semibold">Odwiedź nas na Facebooku</p>
+                  <a href="https://pl-pl.facebook.com/karcherserwis/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                    facebook.com/karcherserwis
+                  </a>
                 </div>
               </div>
             </div>
