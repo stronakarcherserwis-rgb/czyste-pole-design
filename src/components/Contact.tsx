@@ -23,7 +23,7 @@ const Contact = () => {
                   <MapPin className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <p className="font-semibold">Adres</p>
+                  <p className="font-semibold">Sklep i serwis</p>
                   <p className="text-muted-foreground">ul. Lwowska 39<br />27-600 Sandomierz</p>
                 </div>
               </div>
