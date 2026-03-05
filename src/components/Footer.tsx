@@ -5,7 +5,7 @@ const Footer = () =>
       <span className="text-primary">KÄRCHER</span> SERWIS
       </p>
       <p className="text-secondary-foreground/60 text-sm">
-        © {new Date().getFullYear()} Kärcher Serwis. Wszelkie prawa zastrzeżone.
+        © {new Date().getFullYear()} Wszelkie prawa zastrzeżone.
       </p>
     </div>
   </footer>;
