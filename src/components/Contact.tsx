@@ -71,7 +71,7 @@ const Contact = () => {
           </div>
 
           <div className="bg-card rounded-2xl overflow-hidden shadow-card border border-border min-h-[400px]">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2533.5!2d21.74!3d50.68!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDQwJzQ4LjAiTiAyMcKwNDQnMjQuMCJF!5e0!3m2!1spl!2spl!4v1234567890" width="100%" height="100%"
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2533.5!2d21.7489!3d50.6822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4722b5d5e2f1c5e7%3A0x0!2sul.+Lwowska+39%2C+27-600+Sandomierz!5e0!3m2!1spl!2spl!4v1234567890" width="100%" height="100%"
             style={{ border: 0, minHeight: "400px" }}
             allowFullScreen
             loading="lazy"
