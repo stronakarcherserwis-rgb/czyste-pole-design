@@ -8,8 +8,8 @@ const accessories = [
 { name: "Dodatkowe akcesoria wraz z urządzeniem", price: "" },
 { name: "Pianownica", price: "30,00 zł" },
 { name: "Dysza rotacyjna", price: "40,00 zł" },
-  { name: "Wąż ciśnieniowy 20m (przedłużka)", price: "45,00 zł" },
-  { name: "Wąż do kanalizacji 20m", price: "70,00 zł" }];
+{ name: "Wąż ciśnieniowy 20m (przedłużka)", price: "45,00 zł" },
+{ name: "Wąż do kanalizacji 20m", price: "70,00 zł" }];
 
 
 const Pricing = () => {
@@ -20,14 +20,14 @@ const Pricing = () => {
           <h2 className="text-3xl md:text-4xl font-heading font-extrabold mb-4">
             Cennik <span className="text-gradient">Wynajmu</span>
           </h2>
-          <p className="text-muted-foreground text-lg max-w-xl mx-auto">Wynajem urządzeń na każdy dzień.
+          <p className="text-muted-foreground text-lg max-w-xl mx-auto">Wynajem urządzeń na każdy dzień. Ceny netto.  
 
+          
           </p>
         </div>
 
         <div className="max-w-3xl mx-auto space-y-4">
-          {items.map((item) =>
-          <div
+          {items.map((item) => <div
             key={item.name}
             className="bg-card border border-border rounded-xl p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-2 shadow-card hover:border-primary/30 transition-colors">
             
